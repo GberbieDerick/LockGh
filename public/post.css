@@ -1,0 +1,10 @@
+div.post {
+	float: left;
+	padding: .625em;
+	margin-top: -3.125em;
+	width: 63.6em;
+	background: #fff;
+	border: 1px solid grey;
+	height: calc(100vh - 7.8em);
+}
+

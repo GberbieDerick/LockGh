@@ -1,0 +1,79 @@
+ul.nav li {
+	width: 12.5em;
+	position: relative;
+}
+
+ul.nav li img {
+	position: absolute;
+	width: 2.5em;
+	top: .4375em;
+}
+
+nav h2 {
+	position: absolute;
+	top: -25%;
+	left: 35%;
+	color: #fff;
+
+}
+
+div.aside {
+	width: 15.625em;
+	height: calc(100vh - 9.375em);
+	background: #333;
+	margin-left: 1.1em;
+	margin-top: -1.575em;
+	float: left;
+}
+
+
+ul.vertical-aside {
+	padding-left: 0;
+}
+
+div.aside > ul > li {
+	list-style: none;
+	color: #fff;
+	padding-left: 20px;
+	height: 3.125em;
+	line-height: 3.125em;
+	margin-bottom: 1.25em;
+}
+
+div.aside > ul > li img {
+	width: 2.5em;
+}
+
+div.aside > ul > li:first-child {
+	text-align: center;
+	padding-left: 0;
+	padding-top: 3.25em;
+	padding-bottom: 3.25em;
+}
+
+div.aside > ul > li a {
+	text-decoration: none;
+	font-size: 1.25em;
+}
+
+div.aside > ul > li.apply:hover {
+	border-left: 5px solid #337ab7;
+}
+
+
+footer {
+	height: 50px;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 0;
+	padding-top: 20px;
+	background: rgba(0,0,0,0.4);
+	padding-bottom: 60px;
+	clear: both;
+}
+
+footer p {
+	padding-left: 10px;
+	text-align: center;
+
+}
