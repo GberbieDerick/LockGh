@@ -1,0 +1,16 @@
+ul.thumbnails li a > img {
+	width: 100px;
+	height: 80px;
+}
+
+ul.thumbnails li {
+	display: inline-block;
+}
+
+ul.thumbnails li a > img:hover {
+	border: 1px solid #1a75ff;
+}
+
+ul.thumbnails {
+	margin-left: -40px;
+}

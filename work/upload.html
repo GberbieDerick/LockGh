@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Upload</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/upload.css">
+</head>
+<body>
+	<div class="container">
+		<div class="container-fluid" id="header">
+			<nav class="navbar navbar-inverse">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              			<span class="sr-only">Toggle navigation</span>
+              			<span class="icon-bar"></span>
+              			<span class="icon-bar"></span>
+              			<span class="icon-bar"></span>
+            		</button>
+					<a href="#" class="navbar-brand">LOCKGH&nbsp;<img src="img/lock.png"></a>
+				</div>
+				<div id="navbar" class="navbar-collapse collapse" aria-expanded="false">
+					<ul class="nav navbar-nav">
+						<li><a href="#">Home</a></li>
+					</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">User</a></li>
+				</ul>							
+				</div>				
+			</nav>
+		</div><!--End of header-->
+		<div class="content">
+			<div class="upload-form">
+				<form action="#" method="post">
+					<div class="row">			
+						
+							<legend>Create Event</legend>
+						
+						<div class="col-md-1"></div>
+						<div class="col-md-4">
+							<div class="form-group">
+								<input class="form-control" type="text" name="eventName" id="eventName" placeholder="Enter the name of Event">
+							</div>
+							<div class="form-group">
+								<input class="form-control" type="text" name="venue" id="eventVenue" placeholder="Enter the venue of Event">
+							</div>
+							<div class="form-group">
+								<input class="form-control" type="date" name="date" id="eventDate" placeholder="Enter the date of Event">
+							</div>
+							<div class="form-group">
+								<input class="form-control" type="text"  name="time" id="eventTime" placeholder="Enter the time of Event">
+							</div>
+						</div>	
+						<div class="col-md-2"></div>
+						<div class="col-md-3">
+							<div class="form-group">
+								<label for="eventFlier">Flier Image:</label>
+								<input class="form-control" type="file" name="eventFlier" id="eventFlier" placeholder="Select the Flier image">
+							</div>
+							<div class="form-group">
+								<label for="eventFlier">Venue Image:</label>
+								<input class="form-control" type="file" name="venueImg" id="venueImg">
+							</div>
+							<div class="form-group">
+								<label for="eventFlier">Sponsors Image:</label>
+								<input class="form-control" type="file" name="sponsorImg" id="sponsorImg">
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4"></div>
+						<div class="col-md-4">
+							<div class="form-group">
+								<input class="form-control" value="Upload" type="submit" name="upload" id="upload">
+							</div>
+						</div>
+						<div class="col-md-4"></div>
+					</div>	
+				</form>
+			</div>
+			<div class="row">
+				<footer>
+					<p>&copy;2017&nbsp;LockGh | Privacy | All rights reserved</p>
+				</footer>
+			</div>	
+		</div><!--content-->
+	</div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>		
+</body>
+</html>
